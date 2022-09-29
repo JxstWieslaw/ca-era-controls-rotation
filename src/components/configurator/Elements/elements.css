@@ -1,0 +1,17 @@
+/* .element-selected{
+    width: 95%;
+    height: 95%;
+} */
+
+.svg-responsive {
+  width: 50%;
+  height: 50%;
+}
+
+.svg-responsive:hover {
+  cursor: pointer;
+}
+
+.svg-responsive:hover .applyhere {
+  fill-opacity: 1;
+}
