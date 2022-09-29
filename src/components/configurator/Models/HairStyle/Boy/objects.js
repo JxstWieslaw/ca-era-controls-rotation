@@ -1,7 +1,6 @@
 import { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
-
 //Models / GLB files outside the Home function.
 export function BoyHairstyle1({ ...props }) {
   console.log(props);
@@ -41,8 +40,6 @@ export function BoyHairstyle1({ ...props }) {
   );
 }
 
-useGLTF.preload("/Boy Hair 01.glb");
-
 export function BoyHairstyle2({ ...props }) {
   console.log(props);
   const name = "BHS2";
@@ -81,10 +78,7 @@ export function BoyHairstyle2({ ...props }) {
   );
 }
 
-useGLTF.preload("/Boy Hair 02.glb");
-
 export function BoyHairstyle3({ ...props }) {
-
   console.log(props);
   const name = "BHS3";
   const group = useRef();
@@ -121,5 +115,3 @@ export function BoyHairstyle3({ ...props }) {
     </group>
   );
 }
-
-useGLTF.preload("/Boy Hair 03.glb");
