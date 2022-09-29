@@ -1,2 +1,2 @@
-# web-avatar-client
+# camera-controls-rotation
 Vercel and Nelify Deployment 
